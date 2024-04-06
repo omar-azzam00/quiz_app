@@ -11,11 +11,6 @@ class StartScreen extends StatelessWidget {
       child: Column(
         mainAxisSize: MainAxisSize.min,
         children: [
-          Image.asset(
-            "assets/images/quiz-logo.png",
-            width: 200,
-            color: const Color.fromARGB(200, 255, 255, 255),
-          ),
           Container(
             padding: const EdgeInsets.fromLTRB(0, 40, 0, 20),
             child: const Text("Learn Flutter the fun way!"),
